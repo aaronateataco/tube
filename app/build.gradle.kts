@@ -79,12 +79,12 @@ dependencies {
     implementation("io.github.junkfood02.youtubedl-android:library:0.18.1")
     implementation("io.github.junkfood02.youtubedl-android:ffmpeg:0.18.1")
     // YouTube proof-of-origin tokens (adapted from NewPipe), which use RxJava.
-    implementation("io.reactivex.rxjava3:rxjava:3.1.10")
+    implementation("io.reactivex.rxjava3:rxjava:3.1.12")
     // The same JSON library NewPipeExtractor uses.
     implementation("com.github.TeamNewPipe:nanojson:e9d656ddb49a412a5a0a5d5ef20ca7ef09549996")
     implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
     // Error reports, only with consent (MIT). See Telemetry.kt.
-    implementation("io.sentry:sentry-android:8.59.0")
+    implementation("io.sentry:sentry-android:8.62.0")
     // Home-screen widgets (Material You colours via Glance).
     implementation("androidx.glance:glance-appwidget:1.2.0")
     implementation("androidx.glance:glance-material3:1.2.0")
